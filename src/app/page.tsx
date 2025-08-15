@@ -1,5 +1,6 @@
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar/navbar";
+import SocialProof from "@/components/social-proof";
 
 const Home = () => {
   return (
@@ -8,8 +9,12 @@ const Home = () => {
         <Navbar />
         <Hero />
       </header>
-      <main className="max-w-[1536px]"></main>
-      <footer className="max-w-[1536px]"></footer>
+      <div className="mx-auto max-w-[1536px]">
+        <main>
+          <SocialProof />
+        </main>
+        <footer></footer>
+      </div>
     </>
   );
 };
