@@ -119,7 +119,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background font-body text-foreground text-base leading-normal;
+    @apply bg-background font-body text-foreground text-base leading-normal text-pretty;
   }
   h1 {
     @apply font-heading text-[40px] leading-[1.2] font-medium tracking-[-1%] md:text-[56px];

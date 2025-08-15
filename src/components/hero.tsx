@@ -9,12 +9,14 @@ const Hero = () => {
       <div className="flex w-full max-w-7xl flex-col items-center justify-between gap-20">
         {/* text container */}
         <div className="max-w-3xl text-center">
-          <h1 className="mb-6">Transform Your Workflow with WorkNest Today</h1>
+          <h1 className="mb-5 md:mb-6">
+            Transform Your Workflow with WorkNest Today
+          </h1>
           <p className="">
             Experience seamless collaboration and automation tailored for remote
             teams. Start optimizing your operations with our intuitive platform.
           </p>
-          <div className="mt-8 flex justify-center gap-4">
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button>Start Automating</Button>
             <Button variant={"secondary"}>Book a Demo</Button>
           </div>
