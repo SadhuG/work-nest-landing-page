@@ -20,7 +20,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative w-full">
-          <Image src={heroImage} alt={"heroImage"} className="rounded-[8px]" />
+          <Image
+            src={heroImage}
+            alt={"heroImage"}
+            className="rounded-[8px] shadow-[4px_4px_15px_rgba(0,0,0,0.25)]"
+          />
         </div>
       </div>
     </section>
