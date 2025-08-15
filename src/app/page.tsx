@@ -1,3 +1,4 @@
+import Hero from "@/components/hero";
 import Navbar from "@/components/navbar/navbar";
 
 const Home = () => {
@@ -5,9 +6,10 @@ const Home = () => {
     <>
       <header>
         <Navbar />
+        <Hero />
       </header>
-      <main></main>
-      <footer></footer>
+      <main className="max-w-[1536px]"></main>
+      <footer className="max-w-[1536px]"></footer>
     </>
   );
 };

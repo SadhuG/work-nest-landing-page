@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${wixSans.variable} ${manropeSans.variable} font-text antialiased`}
+        className={`${wixSans.variable} ${manropeSans.variable} antialiased`}
       >
         {children}
       </body>
