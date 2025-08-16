@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 const Feature1 = () => {
   return (
     <section className="flex items-center justify-center px-5 py-16 md:px-10 md:py-20 lg:px-16 lg:py-28">
-      <div className="flex flex-col items-center justify-center gap-12 md:gap-20 lg:flex-row">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-12 md:gap-20 lg:flex-row">
         <div className="w-full">
           <div>
             <h2 className="mb-5 md:mb-6">

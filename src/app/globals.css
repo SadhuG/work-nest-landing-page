@@ -126,7 +126,10 @@
     @apply font-heading text-[40px] leading-tight font-medium tracking-[-1%] md:text-[56px];
   }
   h2 {
-    @apply font-heading text-4xl leading-tight font-medium tracking-[-1%] md:text-[40px];
+    @apply font-heading text-4xl leading-tight font-medium tracking-[-1%] md:text-[48px];
+  }
+  h4 {
+    @apply font-heading text-2xl leading-tight font-medium tracking-[-1%] md:text-[32px];
   }
 
   .text-medium-bold {
