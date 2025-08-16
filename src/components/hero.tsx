@@ -25,7 +25,7 @@ const Hero = () => {
           <Image
             src={heroImage}
             alt={"heroImage"}
-            className="rounded-[8px] shadow-[4px_4px_15px_rgba(0,0,0,0.25)]"
+            className="rounded-[8px] md:rounded-2xl shadow-[4px_4px_15px_rgba(0,0,0,0.25)]"
           />
         </div>
       </div>

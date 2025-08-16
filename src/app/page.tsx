@@ -1,3 +1,4 @@
+import Feature1 from "@/components/feature-1";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar/navbar";
 import SocialProof from "@/components/social-proof";
@@ -12,6 +13,7 @@ const Home = () => {
       <div className="mx-auto max-w-[1536px]">
         <main>
           <SocialProof />
+          <Feature1 />
         </main>
         <footer></footer>
       </div>
