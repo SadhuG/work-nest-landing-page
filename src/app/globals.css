@@ -135,4 +135,12 @@
   .text-medium-bold {
     @apply text-lg font-bold;
   }
+
+  .pink-bg-gradient {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 154, 145, 0.1) 0%,
+      rgba(255, 154, 145, 0.2) 100%
+    );
+  }
 }
