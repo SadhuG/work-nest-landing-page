@@ -49,7 +49,7 @@ const HowItWorks = () => {
                 />
               </div>
               <div>
-                <p className="font-heading text-xl font-semibold text-[#FF4500]">
+                <p className="font-heading font-semibold text-[#FF4500] md:text-xl">
                   Step {index + 1}
                 </p>
                 <h4 className="mb-2">{step.title}</h4>
