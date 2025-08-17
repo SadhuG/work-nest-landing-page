@@ -1,3 +1,4 @@
+import Faq from "@/components/faq";
 import Feature1 from "@/components/feature-1";
 import Hero from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
@@ -20,6 +21,7 @@ const Home = () => {
         <HowItWorks />
         <ProductDemo />
         <IntegrationsShowcase />
+        <Faq />
       </main>
       <footer></footer>
     </>
