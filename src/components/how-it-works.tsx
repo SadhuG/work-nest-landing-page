@@ -24,7 +24,7 @@ const HowItWorks = () => {
     },
   ];
   return (
-    <section className="flex items-center justify-center px-5 py-16 md:px-10 md:py-20 lg:px-16 lg:py-28">
+    <section className="mx-auto flex max-w-[1536px] items-center justify-center px-5 py-16 md:px-10 md:py-20 lg:px-16 lg:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-12 w-full max-w-3xl text-center md:mb-20">
           <span className="mb-4 font-semibold">How it works</span>

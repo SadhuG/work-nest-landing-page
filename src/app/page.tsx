@@ -12,15 +12,14 @@ const Home = () => {
         <Navbar />
         <Hero />
       </header>
-      <div className="mx-auto max-w-[1536px]">
-        <main>
-          <SocialProof />
-          <Feature1 />
-          <HowItWorks />
-          <ProductDemo />
-        </main>
-        <footer></footer>
-      </div>
+
+      <main>
+        <SocialProof />
+        <Feature1 />
+        <HowItWorks />
+        <ProductDemo />
+      </main>
+      <footer></footer>
     </>
   );
 };

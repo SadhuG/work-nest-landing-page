@@ -14,7 +14,7 @@ const SocialProof = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center rounded-b-3xl py-12 min-[400px]:px-5 md:rounded-b-[40px] md:px-10 md:py-20 lg:px-16">
+    <section className="mx-auto flex max-w-[1536px] flex-col items-center justify-center rounded-b-3xl py-12 min-[400px]:px-5 md:rounded-b-[40px] md:px-10 md:py-20 lg:px-16">
       <div className="w-full max-sm:px-5">
         <p className="text-medium-bold text-center">
           Trusted by top companies worldwide for automation
