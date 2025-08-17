@@ -1,6 +1,7 @@
 import Feature1 from "@/components/feature-1";
 import Hero from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
+import IntegrationsShowcase from "@/components/integrations-showcase";
 import Navbar from "@/components/navbar/navbar";
 import ProductDemo from "@/components/product-demo";
 import SocialProof from "@/components/social-proof";
@@ -18,6 +19,7 @@ const Home = () => {
         <Feature1 />
         <HowItWorks />
         <ProductDemo />
+        <IntegrationsShowcase />
       </main>
       <footer></footer>
     </>

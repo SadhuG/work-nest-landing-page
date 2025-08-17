@@ -10,7 +10,7 @@ const ProductDemo = () => {
       <div>
         <div className="mx-auto mb-12 w-full max-w-3xl text-center md:mb-20">
           <h2 className="mb-6">See WorkNest in action</h2>
-          <p className="text-lg">
+          <p className="md:text-lg">
             Watch how simple it is to set up an automation that assigns tasks,
             sends updates, and organizes files—automatically.
           </p>

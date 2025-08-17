@@ -14,7 +14,7 @@ const Feature1 = () => {
             <h2 className="mb-5 md:mb-6">
               Remote work shouldn’t mean messy work.
             </h2>
-            <p className="text-lg">
+            <p className="md:text-lg">
               Spreadsheets, endless Slack messages, forgotten deadlines—it’s
               time to stop juggling tools and start focusing on outcomes. <br />
               WorkNest unifies communication, task management, and automation

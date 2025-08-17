@@ -29,7 +29,7 @@ const HowItWorks = () => {
         <div className="mx-auto mb-12 w-full max-w-3xl text-center md:mb-20">
           <span className="mb-4 font-semibold">How it works</span>
           <h2 className="mb-6">Transform Your Workflow with Automation</h2>
-          <p className="text-lg">
+          <p className="md:text-lg">
             Streamline your processes with our powerful task automation feature.
             Save time and reduce errors, allowing your team to focus on what
             truly matters.

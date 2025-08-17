@@ -1,7 +1,7 @@
-import basecampLogo from "@/assets/basecamp-logo.png";
-import deelLogo from "@/assets/deel-logo.png";
-import gitLabLogo from "@/assets/gitlab-logo.png";
-import miroLogo from "@/assets/miro-logo.png";
+import basecampLogo from "@/assets/logos/basecamp-logo.png";
+import deelLogo from "@/assets/logos/deel-logo.png";
+import gitLabLogo from "@/assets/logos/gitlab-logo.png";
+import miroLogo from "@/assets/logos/miro-logo.png";
 import Image from "next/image";
 import React from "react";
 
