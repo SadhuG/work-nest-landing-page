@@ -6,6 +6,7 @@ import IntegrationsShowcase from "@/components/integrations-showcase";
 import Navbar from "@/components/navbar/navbar";
 import ProductDemo from "@/components/product-demo";
 import SocialProof from "@/components/social-proof";
+import Testimonials from "@/components/testimonials";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <ProductDemo />
         <IntegrationsShowcase />
         <Faq />
+        <Testimonials />
       </main>
       <footer></footer>
     </>
