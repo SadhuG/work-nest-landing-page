@@ -1,6 +1,7 @@
 import Cta from "@/components/cta";
 import Faq from "@/components/faq";
 import Feature1 from "@/components/feature-1";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
 import IntegrationsShowcase from "@/components/integrations-showcase";
@@ -27,7 +28,10 @@ const Home = () => {
         <Testimonials />
         <Cta />
       </main>
-      <footer></footer>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
