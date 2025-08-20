@@ -12,6 +12,10 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import * as React from "react";
 
+import personIcon from "@/assets/person-icon.svg";
+import starIcon from "@/assets/star-icon.svg";
+import Image from "next/image";
+
 export default function TestimonialCarousel() {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true }),
@@ -101,15 +105,21 @@ export default function TestimonialCarousel() {
               {testimonials.map((item, i) => (
                 <CarouselItem
                   key={i}
-                  className="w-full max-w-[296px] md:max-w-[416px]"
+                  className="h-full w-full max-w-[296px] md:max-w-[416px]"
                 >
-                  <Card className="p-6 shadow-sm">
-                    <CardContent className="space-y-4">
-                      <div className="flex text-xl text-red-400">{"★★★★★"}</div>
+                  <Card className="bg-background p-6 xl:p-8">
+                    <CardContent className="space-y-5 p-0">
+                      <div className="flex gap-1">
+                        <Image src={starIcon} alt={"star icon"} />
+                        <Image src={starIcon} alt={"star icon"} />
+                        <Image src={starIcon} alt={"star icon"} />
+                        <Image src={starIcon} alt={"star icon"} />
+                        <Image src={starIcon} alt={"star icon"} />
+                      </div>
                       <p className="text-lg leading-relaxed">“{item.text}”</p>
-                      <div className="flex items-center gap-3">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-100">
-                          <span className="text-xl">👤</span>
+                      <div className="flex flex-col items-start gap-4 md:flex-row">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#C0FFE2]/50">
+                          <Image src={personIcon} alt={"person icon"} />
                         </div>
                         <div>
                           <p className="font-semibold">{item.name}</p>
@@ -124,11 +134,11 @@ export default function TestimonialCarousel() {
               ))}
             </CarouselContent>
 
-            <div className="flex justify-between max-lg:w-3/4 xl:max-w-[600px]">
+            <div className="flex justify-between pr-4 md:pr-10 lg:pr-16 xl:max-w-[600px]">
               {/* Custom nav buttons */}
               <div className="flex justify-center gap-3">
-                <CarouselPrevious className="static h-10 w-10 rounded-md border" />
-                <CarouselNext className="static h-10 w-10 rounded-md border" />
+                <CarouselPrevious className="static size-12 h-12 w-12 rounded-[4px] border bg-[#F2F2F2]" />
+                <CarouselNext className="static size-12 h-12 w-12 rounded-[4px] border bg-[#F2F2F2]" />
               </div>
 
               <div className="flex justify-center gap-2">
