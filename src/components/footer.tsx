@@ -1,14 +1,6 @@
 import React from "react";
 import Logo from "./ui/logo";
 
-// import {
-//   FaFacebookF,
-//   FaInstagram,
-//   FaLinkedinIn,
-//   FaYoutube,
-// } from "react-icons/fa";
-// import { FaXTwitter } from "react-icons/fa6";
-
 const footerLinks1 = [
   { label: "Support Center", href: "#" },
   { label: "Blog Posts", href: "#" },
@@ -45,23 +37,6 @@ const Footer = () => {
               </a>
               <a href="#" className="hover:text-primary block underline">
                 hello@worknest.com
-              </a>
-            </div>
-            <div className="mt-6 flex gap-5 text-2xl md:mt-8">
-              <a href="#" aria-label="Facebook" className="hover:text-primary">
-                {/* <FaFacebookF /> */}
-              </a>
-              <a href="#" aria-label="Instagram" className="hover:text-primary">
-                {/* <FaInstagram /> */}
-              </a>
-              <a href="#" aria-label="X" className="hover:text-primary">
-                {/* <FaXTwitter /> */}
-              </a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-primary">
-                {/* <FaLinkedinIn /> */}
-              </a>
-              <a href="#" aria-label="YouTube" className="hover:text-primary">
-                {/* <FaYoutube /> */}
               </a>
             </div>
           </div>
