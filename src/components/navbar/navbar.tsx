@@ -19,7 +19,7 @@ const Navbar = () => {
       className="flex h-[72px] items-center-safe justify-center-safe pr-3 pl-5 sm:px-12 lg:px-14 xl:px-16"
       aria-label="Main navigation"
     >
-      <div className="flex w-full items-center justify-between">
+      <div className="flex w-full max-w-[1536px] items-center justify-between">
         <div className="z-60">
           <Link href="/" aria-label="WorkNest - Back to homepage">
             <Logo />
