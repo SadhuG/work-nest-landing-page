@@ -1,9 +1,9 @@
-import Image from "next/image";
-import React from "react";
-
 import hiwStep1 from "@/assets/hiw-step1.jpg";
 import hiwStep2 from "@/assets/hiw-step2.jpg";
 import hiwStep3 from "@/assets/hiw-step3.jpg";
+import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
+import React from "react";
 
 const HowItWorks = () => {
   const steps = [
@@ -37,25 +37,27 @@ const HowItWorks = () => {
         </div>
         <div className="mx-auto flex w-full flex-col gap-12 lg:flex-row">
           {steps.map((step, index) => (
-            <div
+            <Card
               key={index}
-              className="max-w-[395px] rounded-2xl border px-4 py-8 max-lg:mx-auto md:rounded-3xl lg:flex-1/3"
+              className="bg-background flex max-w-[395px] flex-col rounded-2xl border px-4 py-8 max-lg:mx-auto md:rounded-3xl lg:flex-1/3"
             >
-              <div className="relative mb-8 w-full">
-                <Image
-                  src={step.img}
-                  alt={"heroImage"}
-                  className="rounded-[8px]"
-                />
-              </div>
-              <div>
-                <p className="font-heading font-semibold text-[#FF4500] md:text-xl">
-                  Step {index + 1}
-                </p>
-                <h4 className="mb-2">{step.title}</h4>
-                <p>{step.text}</p>
-              </div>
-            </div>
+              <CardContent className="flex flex-col p-0">
+                <div className="relative mb-8 w-full">
+                  <Image
+                    src={step.img}
+                    alt={"heroImage"}
+                    className="rounded-[8px]"
+                  />
+                </div>
+                <div>
+                  <p className="font-heading font-semibold text-[#FF4500] md:text-xl">
+                    Step {index + 1}
+                  </p>
+                  <h4 className="mb-2">{step.title}</h4>
+                  <p>{step.text}</p>
+                </div>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>
