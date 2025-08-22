@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:block">
           <Link href={"#"} aria-label="">
-            <Button>Start Trial</Button>
+            <Button>Start Automating</Button>
           </Link>
         </div>
 

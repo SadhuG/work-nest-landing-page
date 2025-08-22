@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect } from "react";
 
@@ -11,10 +10,10 @@ type Props = {
 };
 
 const navMenu = [
-  { text: "Mission", href: "#mission" },
-  { text: "Works", href: "#projects" },
-  { text: "About", href: "#about" },
-  { text: "Contact", href: "#contact" },
+  { text: "Features", href: "#" },
+  { text: "Pricing", href: "#" },
+  { text: "About us", href: "#" },
+  { text: "Support", href: "#" },
 ];
 
 const NavMenu = ({ isOpen, onClose }: Props) => {
@@ -49,7 +48,7 @@ const NavMenu = ({ isOpen, onClose }: Props) => {
       aria-modal="true"
       className={`fixed inset-0 z-40 h-screen transform ${
         isOpen ? "w-screen -translate-x-0" : "translate-x-full"
-      } bg-background transition-transform duration-500 ease-out`}
+      } bg-[#ccd1eb] transition-transform duration-500 ease-out`}
     >
       <div className="flex h-full w-full flex-col items-center justify-center space-y-4 px-5 py-16">
         <nav
@@ -81,17 +80,10 @@ const NavMenu = ({ isOpen, onClose }: Props) => {
           className="flex w-full flex-col items-end"
           aria-label="Contact information"
         >
-          <span className="text-large-light" id="contact-label">
-            Let&apos;s Chat!
-          </span>
-          <Link
-            href={"mailto:hello@sadhug.in"}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-labelledby="contact-label"
-          >
-            <Button>hello@sadhug.in</Button>
-          </Link>
+          <div className="mt-8 flex flex-wrap-reverse justify-end gap-4">
+            <Button>Start Automating</Button>
+            <Button variant={"secondary"}>Book a Demo</Button>
+          </div>
         </div>
       </div>
     </div>
